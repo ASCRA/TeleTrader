@@ -1,4 +1,4 @@
-#Kako pokrenuti
--git clone
--npm install
--npm start
+# Kako pokrenuti
+## git clone
+## npm install
+## npm start
