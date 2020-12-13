@@ -41,8 +41,8 @@ function GlavnaStrana() {
           <Navbar/>
         </LogInContext.Provider>
           <Switch>
-            <Route path = "/home" exact component={Home} />
-            {loggedIn? <Route path = "/profile" exact component={Profile} />:<Redirect from='/profile' to="/home" />}
+            <Route path = "/" exact component={Home} />
+            {loggedIn? <Route path = "/profile" exact component={Profile} />:<Redirect from='/profile' to="/" />}
           </Switch>
       </BrowserRouter>
     </div>

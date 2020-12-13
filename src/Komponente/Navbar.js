@@ -53,7 +53,7 @@ export let Navbar = () => {
                         <b>Navbar</b>
                         <Ul>
                             <li>
-                                <Link to = "/home">
+                                <Link to = "/">
                                     Home
                                 </Link>
                             </li>
@@ -70,7 +70,7 @@ export let Navbar = () => {
                         <b>Navbar</b>
                         <Ul>
                             <li>
-                                <Link to = "/home">
+                                <Link to = "/">
                                     Home
                                 </Link>
                             </li>
